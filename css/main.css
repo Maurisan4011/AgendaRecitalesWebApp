@@ -318,7 +318,7 @@ div.logo p {
 
 @media only screen and (min-width:768px) {
   div.logo {
-    width: 50%;
+    width: 33%;
   }
 }
 
@@ -365,7 +365,7 @@ nav.navegacion-principal a:last-child:hover {
 
 @media only screen and (min-width:768px) {
   nav.navegacion-principal {
-    width: 50%;
+    width: 67%;
     float: right;
     text-align: right;
     display: block;
@@ -406,6 +406,7 @@ div.menu-movil span {
   margin-bottom: 6px;
   background-color: #ffffff;
   display: block;
+  border-radius: 5%;
 }
 
 /** Seccion **/
