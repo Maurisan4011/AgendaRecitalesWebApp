@@ -127,13 +127,13 @@ h2:after {
 
 h3 {
   font-size: 1.8em;
-  color: #fe4918;
+  color: #00adb5;
   font-family: 'PT Sans', sans-serif;
   margin: 0;
 }
 
 .button {
-  background-color: #fe4918;
+  background-color: #00adb5;
   font-family: 'Oswald', sans-serif;
   padding: 10px 40px;
   color: #ffffff;
@@ -144,16 +144,16 @@ h3 {
   margin-top: 20px;
   display: inline-block;
   transition: all .3s ease;
-  border: 2px solid #fe4918;
+  border: 2px solid #00adb5;
 }
 
 .button:hover {
-  background-color: #e33000;
+  background-color: #00adb5;
 }
 
 .button.hollow, .button.hollow:hover {
   background-color: #ffffff;
-  color: #fe4918;
+  color: #00adb5;
 }
 
 .button.transparente {
@@ -162,8 +162,8 @@ h3 {
 }
 
 .button.transparente:hover {
-  background-color: #fe4918;
-  border: 2px solid #fe4918;
+  background-color: #00adb5;
+  border: 2px solid #00adb5;
 }
 
 ul {
@@ -254,7 +254,7 @@ div.informacion-evento p {
 }
 
 div.informacion-evento p i {
-  color: #fe4918;
+  color: #00ECF7;
   font-size: 2rem;
 }
 
@@ -504,7 +504,7 @@ nav.menu-programa a.activo:after {
 }
 
 nav.menu-programa a i, div.detalle-evento p i {
-  color: #fe4918;
+  color: #00adb5;
   font-size: 1.4em;
   margin-right: 10px;
 }
@@ -577,7 +577,7 @@ div.invitado p {
   width: 100%;
   text-align: left;
   font-family: 'Oswald', sans-serif;
-  color: #fe4918;
+  color: #00adb5;
   text-transform: uppercase;
   -webkit-transition: all .5s ease-in-out;
 }
@@ -635,7 +635,7 @@ ul.resumen-evento li {
 }
 
 p.numero {
-  color: #fe4918;
+  color: #00adb5;
   font-size: 4em;
   display: block;
   margin: 0 0 10px 0;
@@ -665,7 +665,7 @@ div.tabla-precio {
 
 div.tabla-precio:hover {
   transform: scale(1.1);
-  border: 1px solid #fe4918;
+  border: 1px solid #00adb5;
   box-shadow: 0px 0px 50px #666;
 }
 
@@ -747,7 +747,7 @@ blockquote p:before {
   margin: 0;
   padding: 0;
   line-height: 1;
-  color: #fe4918;
+  color: #00adb5;
 }
 
 footer.info-testimonial {
@@ -764,7 +764,7 @@ footer.info-testimonial img {
 
 footer.info-testimonial cite {
   text-align: left;
-  color: #fe4918;
+  color: #00adb5;
   text-transform: uppercase;
   font-size: 12px;
   padding-top: 20px;
@@ -857,7 +857,7 @@ footer h3 {
 }
 
 footer h3 span {
-  color: #fe4918;
+  color: #00adb5;
 }
 
 footer .ultimos-tweets li {
@@ -892,7 +892,7 @@ form.registro label {
 h4 {
   text-align: center;
   text-transform: uppercase;
-  border-bottom: 2px solid #fe4918;
+  border-bottom: 2px solid #00adb5;
   padding-bottom: 10px;
   font-size: 1.2em;
 }
@@ -953,7 +953,7 @@ div.paquetes .tabla-precio input {
 }
 
 .contenido-dia>div label time {
-  color: #fe4918;
+  color: #00adb5;
   font-weight: bold;
 }
 
@@ -997,7 +997,7 @@ div.resumen input {
 #suma_total {
   text-align: center;
   font-size: 2em;
-  color: #fe4918;
+  color: #00adb5;
 }
 
 #error {
@@ -1115,7 +1115,7 @@ div.galeria a {
 }
 
 body.conferencia .navegacion-principal .activo {
-  border-bottom: 2px solid #fe4918;
+  border-bottom: 2px solid #00adb5;
 }
 
 /* ==========================================================================
