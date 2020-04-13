@@ -114,6 +114,7 @@ h2 {
   font-size: 2.4em;
   text-transform: uppercase;
   text-align: center;
+  color: #00adb5;
 }
 
 h2:after {
@@ -406,7 +407,6 @@ div.menu-movil span {
   margin-bottom: 6px;
   background-color: #ffffff;
   display: block;
-  border-radius: 5%;
 }
 
 /** Seccion **/
@@ -477,7 +477,7 @@ nav.menu-programa a {
   font-size: 1.2em;
   position: relative;
   padding-bottom: 10px;
-  border-bottom: 1px solid #fe4918;
+  border-bottom: 1px solid rgb(0, 0, 0);
 }
 
 nav.menu-programa a.activo:after {
@@ -489,7 +489,6 @@ nav.menu-programa a.activo:after {
   margin-right: auto;
   height: 20px;
   width: 30px;
-  background-image: url('../img/talleres-flecha.jpg');
   opacity: 0.5;
   background-position: top center;
   background-repeat: no-repeat;
@@ -1013,6 +1012,11 @@ h1.nombre-sitio span {
   text-shadow: 0 0 30px black;
 }
 
+h3.nombre-sitio span {
+  position: relative;
+  text-shadow: 0 0 30px black;
+}
+
 @media only screen and (min-width:992px) {
   .char1 {
     top: 20px;
@@ -1038,31 +1042,31 @@ h1.nombre-sitio span {
     color: #00adb5;
   }
   .char6 {
-    top: 5px;
-    left: 10px;
+    top: 20px;
+    right: 20px;
   }
   .char7 {
-    top: 20px;
-    left: -10px;
+    top: 0px;
+    left: -20px;
     color: #00adb5;
   }
   .char8 {
-    top: 0;
-    left: 10px;
-  }
-  .char9 {
     top: 10px;
     right: 20px;
-    color: #00adb5;
+  }
+  .char9 {
+    top: 15px;
+    right: 10px;
   }
   .char10 {
     top: 20px;
     right: 20px;
+    color: #00adb5;
   }
   .char11 {
     top: 0px;
     left: -20px;
-    color: #00adb5;
+ 
   }
   .char12 {
     top: 10px;
@@ -1096,13 +1100,13 @@ h1.nombre-sitio span {
     right: 20px;
   }
   .char19 {
-    top: 0;
-    left: 10px;
+    top: 20px;
+    right: 20px;
     color: #00adb5;
   }
   .char20 {
-    top: 10px;
-    right: 20px;
+    top: 0px;
+    left: -20px;
   }
 }
 
