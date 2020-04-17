@@ -1,7 +1,7 @@
 (function() {
     "user strict";
-    // Mapa
-    var map = L.map('mapa').setView([-34.60665, -58.435421], 16);
+    // Mapa https://leafletjs.com/examples/quick-start/
+    var map = L.map('mapa').setView([-34.60665, -58.445421], 16);
 
     L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
         attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
@@ -27,10 +27,10 @@ $(function(){
     });
 
     // Animaciones para los Números
-    $('.resumen-evento li:nth-child(1) p').animateNumber({number: 6}, 1200);
-    $('.resumen-evento li:nth-child(2) p').animateNumber({number: 15}, 1200);
-    $('.resumen-evento li:nth-child(3) p').animateNumber({number: 3}, 1500);
-    $('.resumen-evento li:nth-child(4) p').animateNumber({number: 9}, 1500);
+    $('.resumen-evento li:nth-child(1) p').animateNumber({number: 2500}, 1200);
+    $('.resumen-evento li:nth-child(2) p').animateNumber({number: 1600}, 1200);
+    $('.resumen-evento li:nth-child(3) p').animateNumber({number: 500}, 1500);
+    $('.resumen-evento li:nth-child(4) p').animateNumber({number: 900}, 1500);
 
     // Cuenta Regresiva
     $('.cuenta-regresiva').countdown('2020/12/03 24:00:00', function(event){

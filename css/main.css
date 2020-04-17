@@ -100,6 +100,7 @@ html {
 
 *, *:before, *:after {
   box-sizing: inherit;
+  /** universal  sin estilos  **/
 }
 
 body {
@@ -119,6 +120,7 @@ h2 {
 
 h2:after {
   content: '';
+  /** conetino par que me ponga en blanco **/
   margin: 0 auto;
   background-image: url(../img/separador.png);
   height: 30px;
@@ -310,7 +312,7 @@ div.logo {
 
 div.logo p {
   width: 100%;
-  color: #00adb5;
+  color: white;
   font-size: 1em;
   /*modificar**/
   font-weight: bold;
@@ -426,7 +428,7 @@ section.programa {
   position: relative;
 }
 
-div.contenedor-video {
+div.contenedor-fondo {
   max-width: 100%;
   overflow-x: hidden;
 }
@@ -799,8 +801,10 @@ div.newsletter .contenido {
 }
 
 div.newsletter .contenido p {
-  font-size: 1.2em;
+  font-size: 2em;
   text-transform: lowercase;
+  color: #000000;
+  font-style: bold;
 }
 
 div.newsletter .contenido h3 {
@@ -1053,6 +1057,7 @@ h3.nombre-sitio span {
   .char8 {
     top: 10px;
     right: 20px;
+    color: #00adb5;
   }
   .char9 {
     top: 15px;
@@ -1066,7 +1071,7 @@ h3.nombre-sitio span {
   .char11 {
     top: 0px;
     left: -20px;
- 
+    color: #00adb5;
   }
   .char12 {
     top: 10px;
@@ -1110,19 +1115,8 @@ h3.nombre-sitio span {
   }
 }
 
-/** Conferencia **/
-
-div.galeria a {
-  display: inline-block;
-  margin-bottom: 5px;
-}
-
-body.conferencia .navegacion-principal .activo {
-  border-bottom: 2px solid #00adb5;
-}
-
 /* ==========================================================================
-   Helper classes
+  Terminan mis estilos
    ========================================================================== */
 
 /*
